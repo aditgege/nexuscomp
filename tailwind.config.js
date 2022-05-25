@@ -10,7 +10,8 @@ module.exports = {
     extend: {
       colors: {
         // Customize the feeling of your site
-        gray: colors.stone
+        gray: colors.stone,
+        'primary-dark': '#0f172a'
       }
     }
   }
