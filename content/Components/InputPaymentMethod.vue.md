@@ -1,0 +1,4 @@
+---
+title: 'InputPaymentMethod'
+---
+# InputPaymentMethod.vue

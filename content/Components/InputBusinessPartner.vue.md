@@ -1,0 +1,4 @@
+---
+title: 'InputBusinessPartner'
+---
+# InputBusinessPartner.vue

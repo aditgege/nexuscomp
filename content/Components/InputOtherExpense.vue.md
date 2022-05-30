@@ -1,0 +1,4 @@
+---
+title: 'InputOtherExpense'
+---
+# InputOtherExpense.vue

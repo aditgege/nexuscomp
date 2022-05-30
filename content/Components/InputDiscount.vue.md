@@ -1,0 +1,4 @@
+---
+title: 'InputDiscount'
+---
+# InputDiscount.vue
