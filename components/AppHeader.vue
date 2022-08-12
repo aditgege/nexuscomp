@@ -9,6 +9,11 @@
       </nuxt-link>
       <nav class="items-center justify-center hidden h-full lg:flex " />
       <div>
+        <a href="/admin" class="flex items-center px-3 py-1 mr-8 font-bold text-white bg-gray-900 rounded-md shadow-md cursor-pointer dark:bg-white dark:text-black">
+          Login
+        </a>
+      </div>
+      <div>
         <ColorModeSwitch />
       </div>
     </div>
