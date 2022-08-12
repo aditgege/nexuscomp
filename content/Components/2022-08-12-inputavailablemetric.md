@@ -1,0 +1,4 @@
+---
+title: Inputavailablemetric
+---
+# InputAvailableMetric.vue
