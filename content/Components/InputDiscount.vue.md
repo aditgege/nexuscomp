@@ -1,4 +1,6 @@
 ---
-title: 'InputDiscount'
+title: InputDiscount
 ---
 # InputDiscount.vue
+
+#### events:
