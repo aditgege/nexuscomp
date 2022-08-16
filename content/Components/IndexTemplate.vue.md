@@ -1,5 +1,5 @@
 ---
-title: 'IndexTemplate'
+title: IndexTemplate
 ---
 
 # IndexTemplate.vue
@@ -38,6 +38,9 @@ component has been imported as global components
 | repository | String |     |  repository name in repositorifactory.js |
 | titleColor | String | green--text | title color with vuetify naming class |
 | alert | Object | { show: false, color: undefined, message} | object alert |
+| exportExcel| Boolean| false | add button export before add button  |
+| paginate | Boolean| true| display paginate table  |
+| initial| Boolean| true| get data on first load  |
 
 ### **function**
 
@@ -54,7 +57,10 @@ this.$refs.indexTable.refresh()
 | --- | --- | --- |
 | search | - | use this slot for override search component on top page |
 | item | table item | use this slot for override item table |
-
+| top-header| title and button | use this slot for override top element before table|
+| actions| button add and refresh | use this slot for override action button|
+| table| default table | use this slot for override table |
+| table-footer| default footer table| use this slot for override footer table ex: additional info|
 ### **Events**
 
 ::list
