@@ -33,17 +33,17 @@ component has been imported as global components
 
 ### **Props**
 
-| props        | type    | default                                                                                       | description                                           |
-| ------------ | ------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| title        | String  | Title index Page                                                                              | Title on top of table                                 |
-| tableHeaders | Array   | `[ { text: String, align: String (left, right, center), sortable: Boolean, value: String } ]` | headers table                                         |
-| search       | Object  | {}                                                                                            | object search with  key value { name: 'test' } format |
-| repository   | String  |                                                                                               | repository name in repositorifactory.js               |
-| titleColor   | String  | green--text                                                                                   | title color with vuetify naming class                 |
-| alert        | Object  | { show: false, color: undefined, message}                                                     | object alert                                          |
-| exportExcel  | Boolean | false                                                                                         | add button export before add button                   |
-| paginate     | Boolean | true                                                                                          | display paginate table                                |
-| initial      | Boolean | true                                                                                          | get data on first load                                |
+| props        | type           | default                                                                                       | description                                                                                                                                                   |
+| ------------ | -------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| title        | String         | Title index Page                                                                              | Title on top of table                                                                                                                                         |
+| tableHeaders | Array          | `[ { text: String, align: String (left, right, center), sortable: Boolean, value: String } ]` | headers table                                                                                                                                                 |
+| search       | Object         | {}                                                                                            | object search with  key value { name: 'test' } format                                                                                                         |
+| repository   | String, Object |                                                                                               | repository name in repositorifactory.js (default methodname is "**get"**), use object if different  with format `{ repo: 'nameRepo', method_name: 'getAll'}`  |
+| titleColor   | String         | green--text                                                                                   | title color with vuetify naming class                                                                                                                         |
+| alert        | Object         | { show: false, color: undefined, message}                                                     | object alert                                                                                                                                                  |
+| exportExcel  | Boolean        | false                                                                                         | add button export before add button                                                                                                                           |
+| paginate     | Boolean        | true                                                                                          | display paginate table                                                                                                                                        |
+| initial      | Boolean        | true                                                                                          | get data on first load                                                                                                                                        |
 
 ### **function**
 
