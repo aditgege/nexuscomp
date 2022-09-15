@@ -13,6 +13,10 @@ This component is used to create a common add and edit page with several configu
       :is-valid="Boolean"
       :breadcrumbs="breadcrumbs"
       :loading="Boolean"
+      :print-props="{
+          name: "nameFile",
+          url: "endpoint print"
+      }"
       @click:save="function"
       @click:reset="function"
       @click:cancel="function"
