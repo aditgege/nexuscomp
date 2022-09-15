@@ -28,15 +28,15 @@ This component is used to create a common add and edit page with several configu
 
 ### **Props**
 
-| props         | type    | default                                                                          | descriptions                                    |
-| ------------- | ------- | -------------------------------------------------------------------------------- | ----------------------------------------------- |
-| noBreadcrumbs | String  | false                                                                            | if page not use breadcrubms                     |
-| breadcrubms   | Array   | `[ { text:  'Dashboard', disabled:  false, href:  'breadcrumbs_dashboard', }, ]` | array breadcrubms                               |
-| isValid       | Boolean | false                                                                            |                                                 |
-| title         | String  |                                                                                  | title on top left page (if not use breadcrubms) |
-| color         | String  | green--text                                                                      | change title color, format naming class vuetify |
-| loading       | Boolean | false                                                                            | loading on save                                 |
-| printProps    | Object  | `{ name: 'data', url:''}`                                                        | props untuk menampilkan button print            |
+| props         | type    | default                                                                          | descriptions                                                                          |
+| ------------- | ------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| noBreadcrumbs | String  | false                                                                            | if page not use breadcrubms                                                           |
+| breadcrubms   | Array   | `[ { text:  'Dashboard', disabled:  false, href:  'breadcrumbs_dashboard', }, ]` | array breadcrubms                                                                     |
+| isValid       | Boolean | false                                                                            |                                                                                       |
+| title         | String  |                                                                                  | title on top left page (if not use breadcrubms)                                       |
+| color         | String  | green--text                                                                      | change title color, format naming class vuetify                                       |
+| loading       | Boolean | false                                                                            | loading on save                                                                       |
+| printProps    | Object  | `{ name: 'data', url:''}`                                                        | props untuk menampilkan button print , di tambah jika memang membutuhkan button print |
 
 ### **function**
 
