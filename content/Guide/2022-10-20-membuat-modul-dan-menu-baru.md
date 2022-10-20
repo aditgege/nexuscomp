@@ -5,6 +5,8 @@ title: Membuat Modul dan menu baru
 
 ![Diagram](https://nexuscomponents.netlify.app/menunexusdiagram.png)
 
+s﻿emua data navigation dan dashboard dibuat otomatis dari data router sesuai dengan access righ user login
+
 > Modul Baru  
 
 u﻿ntuk pembuatan modul baru perlu merubah file berikut:
