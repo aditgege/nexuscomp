@@ -1,5 +1,6 @@
 ---
 title: Membuat Modul dan menu baru
+cover: /img/menunexusdiagram.png
 ---
 # Membuat modul dan menu baru (JWT)
 
@@ -51,3 +52,13 @@ c﻿ontohnya
 ```
 
 p﻿erlu diperhatikan bahwa attribut **module_name** merupakan nama modul yang terletak pada file NavigationDrawer.vue dan accessright_name merupakan nama dari database (harus sama).
+
+> ﻿ Catatan untuk children routes
+
+D﻿iperlukan sebuah file index / parent y﻿ang akan di masukan kedalam component pada route parent file tersebut digunakan untuk merender semua halaman children, contoh filenya sebagai berikut:
+
+```html
+<template>
+   <router-view/>
+<template>
+```
